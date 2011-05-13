@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801404081376E94B0091B366 /* Photo+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 801404071376E94B0091B366 /* Photo+Utilities.m */; };
+		8014040F137702700091B366 /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 8014040E137702700091B366 /* Bookmark.m */; };
+		80140445137719D50091B366 /* examples.m in Sources */ = {isa = PBXBuildFile; fileRef = 80140437137719D50091B366 /* examples.m */; };
+		80140446137719D50091B366 /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 80140439137719D50091B366 /* MARTNSObject.m */; };
+		80140447137719D50091B366 /* RTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8014043C137719D50091B366 /* RTIvar.m */; };
+		80140448137719D50091B366 /* RTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8014043E137719D50091B366 /* RTMethod.m */; };
+		80140449137719D50091B366 /* RTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 80140440137719D50091B366 /* RTProperty.m */; };
+		8014044A137719D50091B366 /* RTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 80140442137719D50091B366 /* RTProtocol.m */; };
+		8014044B137719D50091B366 /* RTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 80140444137719D50091B366 /* RTUnregisteredClass.m */; };
 		80A58D94137658C0002C4485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A58D93137658C0002C4485 /* Foundation.framework */; };
 		80A58D97137658C0002C4485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A58D96137658C0002C4485 /* main.m */; };
+		80F2C73E1376606E00FC996F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C73D1376606E00FC996F /* Photo.m */; };
+		80F2C7411376849300FC996F /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C7401376849300FC996F /* NSString+Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +35,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		801404061376E94A0091B366 /* Photo+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Utilities.h"; sourceTree = "<group>"; };
+		801404071376E94B0091B366 /* Photo+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Utilities.m"; sourceTree = "<group>"; };
+		8014040C1376FB350091B366 /* IconViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewInfo.h; sourceTree = "<group>"; };
+		8014040D137702700091B366 /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		8014040E137702700091B366 /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		80140437137719D50091B366 /* examples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examples.m; sourceTree = "<group>"; };
+		80140438137719D50091B366 /* MARTNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARTNSObject.h; sourceTree = "<group>"; };
+		80140439137719D50091B366 /* MARTNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARTNSObject.m; sourceTree = "<group>"; };
+		8014043A137719D50091B366 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		8014043B137719D50091B366 /* RTIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTIvar.h; sourceTree = "<group>"; };
+		8014043C137719D50091B366 /* RTIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTIvar.m; sourceTree = "<group>"; };
+		8014043D137719D50091B366 /* RTMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMethod.h; sourceTree = "<group>"; };
+		8014043E137719D50091B366 /* RTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMethod.m; sourceTree = "<group>"; };
+		8014043F137719D50091B366 /* RTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTProperty.h; sourceTree = "<group>"; };
+		80140440137719D50091B366 /* RTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTProperty.m; sourceTree = "<group>"; };
+		80140441137719D50091B366 /* RTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTProtocol.h; sourceTree = "<group>"; };
+		80140442137719D50091B366 /* RTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTProtocol.m; sourceTree = "<group>"; };
+		80140443137719D50091B366 /* RTUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTUnregisteredClass.h; sourceTree = "<group>"; };
+		80140444137719D50091B366 /* RTUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTUnregisteredClass.m; sourceTree = "<group>"; };
 		80A58D8F137658C0002C4485 /* CHObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CHObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A58D93137658C0002C4485 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80A58D96137658C0002C4485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80A58D99137658C0002C4485 /* CHObjectiveC-Prefix.pch */ = {isa = PBXFileReference; path = "CHObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		80A58D99137658C0002C4485 /* CHObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		80A58D9A137658C0002C4485 /* CHObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CHObjectiveC.1; sourceTree = "<group>"; };
+		80F2C73C1376606E00FC996F /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		80F2C73D1376606E00FC996F /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		80F2C73F1376849300FC996F /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		80F2C7401376849300FC996F /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +77,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8014040B1376FB350091B366 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8014040C1376FB350091B366 /* IconViewInfo.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		80140410137719D50091B366 /* MAObjCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				80140437137719D50091B366 /* examples.m */,
+				80140438137719D50091B366 /* MARTNSObject.h */,
+				80140439137719D50091B366 /* MARTNSObject.m */,
+				8014043A137719D50091B366 /* README.markdown */,
+				8014043B137719D50091B366 /* RTIvar.h */,
+				8014043C137719D50091B366 /* RTIvar.m */,
+				8014043D137719D50091B366 /* RTMethod.h */,
+				8014043E137719D50091B366 /* RTMethod.m */,
+				8014043F137719D50091B366 /* RTProperty.h */,
+				80140440137719D50091B366 /* RTProperty.m */,
+				80140441137719D50091B366 /* RTProtocol.h */,
+				80140442137719D50091B366 /* RTProtocol.m */,
+				80140443137719D50091B366 /* RTUnregisteredClass.h */,
+				80140444137719D50091B366 /* RTUnregisteredClass.m */,
+			);
+			path = MAObjCRuntime;
+			sourceTree = "<group>";
+		};
 		80A58D84137658C0002C4485 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +134,10 @@
 		80A58D95137658C0002C4485 /* CHObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				80140410137719D50091B366 /* MAObjCRuntime */,
+				8014040B1376FB350091B366 /* Protocols */,
+				80F2C73913765F5100FC996F /* Categories */,
+				80F2C73A13765F5100FC996F /* Classes */,
 				80A58D96137658C0002C4485 /* main.m */,
 				80A58D9A137658C0002C4485 /* CHObjectiveC.1 */,
 				80A58D98137658C0002C4485 /* Supporting Files */,
@@ -84,6 +151,28 @@
 				80A58D99137658C0002C4485 /* CHObjectiveC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80F2C73913765F5100FC996F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				801404061376E94A0091B366 /* Photo+Utilities.h */,
+				801404071376E94B0091B366 /* Photo+Utilities.m */,
+				80F2C73F1376849300FC996F /* NSString+Utilities.h */,
+				80F2C7401376849300FC996F /* NSString+Utilities.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		80F2C73A13765F5100FC996F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8014040D137702700091B366 /* Bookmark.h */,
+				8014040E137702700091B366 /* Bookmark.m */,
+				80F2C73C1376606E00FC996F /* Photo.h */,
+				80F2C73D1376606E00FC996F /* Photo.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +226,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A58D97137658C0002C4485 /* main.m in Sources */,
+				80F2C73E1376606E00FC996F /* Photo.m in Sources */,
+				80F2C7411376849300FC996F /* NSString+Utilities.m in Sources */,
+				801404081376E94B0091B366 /* Photo+Utilities.m in Sources */,
+				8014040F137702700091B366 /* Bookmark.m in Sources */,
+				80140445137719D50091B366 /* examples.m in Sources */,
+				80140446137719D50091B366 /* MARTNSObject.m in Sources */,
+				80140447137719D50091B366 /* RTIvar.m in Sources */,
+				80140448137719D50091B366 /* RTMethod.m in Sources */,
+				80140449137719D50091B366 /* RTProperty.m in Sources */,
+				8014044A137719D50091B366 /* RTProtocol.m in Sources */,
+				8014044B137719D50091B366 /* RTUnregisteredClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +246,7 @@
 		80A58D9B137658C0002C4485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -164,7 +264,7 @@
 		80A58D9C137658C0002C4485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -220,6 +320,7 @@
 				80A58D9F137658C0002C4485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
